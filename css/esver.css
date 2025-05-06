@@ -1,0 +1,417 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-ev-color: #E50520;
+    --main-bg-color: #1D1D1B;
+}
+
+.nav-link {
+    color: black;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--main-ev-color);
+    font-weight: 500;
+    border-bottom: #EFEF01 2px solid;
+}
+
+.bg-black {
+    --bs-bg-opacity: 1;
+    background-color: #000000 !important;
+}
+
+.btn-red {
+    background-color: var(--main-ev-color);
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #FFFFFF;
+    border-color: black;
+}
+
+.hero-image {
+    background-image: url(../img/banner-movil-esver25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 160px 0 80px 0;
+    min-height: 500px;
+}
+
+.hero-days {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+
+}
+
+.hero-month {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+
+}
+
+.border-l {
+    border-left: none;
+}
+
+.hero-data {
+    padding: 14px 20px;
+}
+
+.hero-lugar {
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+}
+
+#infographic {
+    padding: 80px 0;
+    background-color: var(--main-bg-color);
+}
+
+.info-icon {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.info-graph-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-graph-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+#intro {
+    padding: 20px 0 70px 0;
+    background-color: white;
+    color: black;
+}
+
+H1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin: 12px 0 20px 0;
+}
+
+.content {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: justify;
+}
+
+#registro {
+    padding: 70px 0;
+    background-color: #F4F4F4;
+}
+
+#registro .color-red {
+    color: var(--main-ev-color);
+}
+
+.requisito {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: var(--main-bg-color);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.schedule-circle {
+    background-color: black !important;
+    border-radius: 50% !important;
+    padding: 0.4em;
+    font-size: 24px;
+    line-height: 1;
+    color: var(--main-ev-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    margin-right: 1.5rem;
+    border: var(--main-ev-color) 2px solid;
+}
+
+.code {
+    color: var(--main-ev-color);
+    font-weight: bold;
+}
+
+.curso {
+    margin: 8px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.curso:hover {
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.professor {
+    font-size: 18px;
+    color: #878787;
+    margin-top: 4px;
+}
+
+.curso:hover .title {
+    color: var(--main-ev-color);
+}
+
+.curso:hover .professor {
+    color: #000000;
+}
+
+.curso:hover .schedule-circle {
+    background-color: #FFFFFF !important;
+}
+
+.curso:hover .code {
+    color: var(--main-ev-color);
+
+}
+
+.modal-title {
+    color: var(--main-ev-color);
+}
+
+.modal-body {
+    padding: 28px;
+    text-align: justify;
+}
+
+#talks {
+    padding: 30px 30px;
+    background-color: #EFEFEF;
+}
+
+#schedule {
+    padding: 70px 0;
+    background-color: #000000;
+}
+
+#schedule h1 {
+    color: #FFFFFF;
+}
+
+.schedule-time {
+    padding: 4px 16px;
+    color: #878787;
+    min-width: 140px;
+}
+
+.schedule-event {
+    border-bottom: 1px solid #ffa0a0;
+    padding: 16px 0;
+}
+
+.schedule-talk {
+    padding: 4px 16px;
+}
+
+.schedule-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.schedule-professor {
+    color: #878787;
+}
+
+.schedule-talk:hover .schedule-time {
+    color: #01ECFF;
+}
+
+.schedule-talk:hover .schedule-title {
+    color: var(--main-ev-color);
+}
+
+.schedule-talk:hover .schedule-professor {
+    color: black;
+}
+
+#program {
+    padding: 70px 0;
+    background-color: #F4F4F4;
+    color: #1D1D1B;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border-color: black;
+
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    isolation: isolate;
+    border-color:  black;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: black;
+    background-color: #FFFFFF;
+}
+
+.nav-tabs .nav-link {
+    padding: 12px 48px;
+}
+
+#comites {
+    padding: 70px 0;
+    background-color: #FFFFFF;
+}
+
+li {
+    color: #878787;
+}
+
+.contacto-container {
+    padding: 60px 0 0 0;
+    background-color: #FFFFFF;
+}
+
+.contacto-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--main-ev-color);
+    text-align: center;
+}
+
+.contacto-content {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+#footer {
+    padding: 72px 0;
+    background-color: #FFFFFF;
+}
+
+.cyan {
+    color: #01ECFF;
+}
+
+.cyan-dark {
+    color: #096B68;
+}
+
+.white {
+    color: white;
+}
+
+.sponsor {
+    margin-bottom: 4rem;
+}
+
+.copyright {
+    color: #333333;
+    font-size: 12px;
+    padding: 2px;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        min-height: 100px;
+    }
+
+    .hero-image {
+        background-image: url(../img/banner-evm25.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        /*position: relative;*/
+        padding: 80px 0 40px 0;
+        min-height: 480px;
+    }
+
+    .hero-days {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .hero-month {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 37px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .border-l {
+        border-left: none;
+    }
+
+
+    .hero-data {
+        padding: 0 20px;
+    }
+
+    .hero-lugar {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0;
+        text-align: left;
+
+    }
+
+    .border-l {
+        border-left: 4px solid #01ECFF;
+    }
+
+    .content {
+        max-width: 700px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0;
+    }
+
+}
