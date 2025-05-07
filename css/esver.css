@@ -307,6 +307,13 @@ li {
     color: #878787;
 }
 
+.organizador {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: var(--main-ev-color) 2px solid;
+
+}
+
 .contacto-container {
     padding: 60px 0 0 0;
     background-color: #FFFFFF;
